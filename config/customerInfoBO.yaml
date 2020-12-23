@@ -1,0 +1,136 @@
+customerInfoBO:
+  id: '1292646655488819201'
+  code: CUS001-20200810100
+  wxUnionId: ''
+  name: "\u66FE\u8D85"
+  type: 0
+  gender: 0
+  compCode: COM20100211000002
+  compName: ''
+  country: ''
+  province: ''
+  city: ''
+  district: ''
+  street: ''
+  mobile: '18613137446'
+  idNumber: ''
+  birthday: '2020-08-10'
+  address: "\u6C5F\u897F\u7701\u5B9C\u6625\u5E02\u4E07\u8F7D\u53BF\u5EB7\u4E50\u8857\
+    \u9053"
+  postalCode: ''
+  fax: ''
+  email: ''
+  member: false
+  memberId: ''
+  satisfaction: 0
+  reputation: 0
+  status: 0
+  source: referral_offline_customers
+  sourceName: "\u8F6C\u4ECB\u7ECD-\u7EBF\u4E0B\u5BA2\u6237\u8F6C\u4ECB\u7ECD\t"
+  firstServiceShop: COM20100211000002
+  firstServiceTime: '2020-08-10 10:19:13'
+  remark: ''
+  createBy: "\u9648\u52C7\u4E3A"
+  createCode: MEM20111207000057
+  updateBy: "\u9648\u52C7\u4E3A"
+  updateCode: MEM20111207000057
+  createTime: '2020-08-10 10:19:13'
+  updateTime: '2020-12-14 14:36:06'
+  receiver: "\u9648\u52C7\u4E3A"
+  receiverId: MEM20111207000057
+  latestServiceTime: '2020-12-14 14:36:05'
+  latestServiceShop: COM20100211000002
+  sort: ''
+  latestServiceShopName: ''
+  latestServiceType: ''
+  latestServiceAmount: 0
+  files: []
+  ascriptions: []
+  cars:
+  - id: '1290940207616880642'
+    carNo: "\u6D59G12345"
+    mileage: 0
+    mileageRecordedTime:
+    logo: ''
+    brand: ''
+    brandEn: ''
+    carModelId: ''
+    yearModel: 0
+    displacement: ''
+    carModel: ''
+    carLine: ''
+    vin: ''
+    engineNumber: ''
+    produceDate: ''
+    cameMileage: 0
+    cameOil: ''
+    quoteNoMaintainCount: 0
+    extra:
+  - id: '1292646512366456834'
+    carNo: "\u5DDDC66666"
+    mileage: 0
+    mileageRecordedTime: '2020-08-19 21:33:29'
+    logo: ''
+    brand: "\u5954\u9A70"
+    brandEn: benz
+    carModelId: '60000397'
+    yearModel: 0
+    displacement: ''
+    carModel: "\u5954\u9A70-166056 ML 400 4MATIC M276821"
+    carLine: '166'
+    vin: WDCDA5GBXEA338178
+    engineNumber: '166056'
+    produceDate: ''
+    cameMileage: 0
+    cameOil: ''
+    quoteNoMaintainCount: 0
+    extra:
+      carId: '1292646512366456834'
+      insuranceExpireTime: '2020-08-19 21:37:37'
+      insuranceBuyTime: '2020-08-19 21:37:33'
+      insuranceCode: ''
+      insuranceName: "\u6C38\u8BDA"
+      recentCameTime:
+      cameCount: 0
+      quoteNoMaintainCount: 0
+      advisorCode: ''
+      advisorName: ''
+      lastCareTime:
+      forceInsuranceExpireTime:
+      forceInsuranceBuyTime:
+      insuranceValidated:
+      insuranceExpireMonth: -1
+  - id: '1297136144495939585'
+    carNo: "\u7CA4E77777"
+    mileage: 0
+    mileageRecordedTime:
+    logo: ''
+    brand: ''
+    brandEn: ''
+    carModelId: ''
+    yearModel: 0
+    displacement: ''
+    carModel: ''
+    carLine: ''
+    vin: ''
+    engineNumber: ''
+    produceDate: ''
+    cameMileage: 0
+    cameOil: ''
+    quoteNoMaintainCount: 0
+    extra:
+  latestServiceTags: []
+  accountTags: []
+  serviceChanceTags: []
+  traceTags: []
+  newCustomer: false
+  hasAccount: true
+  quoteNoMaintainCount: 0
+  waitingServiceOrderCount: 0
+  packageCount: 1
+  totalConsumeAmount: 3342.02
+  byConsumeAmount: 0.0
+  xmConsumeAmount: 3342.02
+  wxConsumeAmount: 0.0
+  accountAmount: 3199.99
+  waitingPayAmount: 0

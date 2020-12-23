@@ -1,0 +1,166 @@
+#接口配置文件
+host: https://hscsf.test.harsonserver.com
+
+sign:   #加密固定参数
+  clientId : 54d507ab-70f7-496d-9ff4-71997588b223
+  clientScret : 4d1c5ca0-716a-442d-a064-6b31031a0caf
+  platform : 9
+
+login:     #登录
+  service: /service/clerk/v5-3/common/open/login
+  params:
+    loginName: '010001'
+    clientId : 54d507ab-70f7-496d-9ff4-71997588b223
+    serialNumber : 00000000-6db4-32c3-ffff-fffff88bec2f
+    password : '1'
+    phoneType : 'ios'
+    clientSecret : c87f1a470344a47733fcdefac08352d9
+    platform : 9
+    clientScret : 4d1c5ca0-716a-442d-a064-6b31031a0caf
+
+customerSearch:  #车牌\手机号\姓名搜索客户复制
+  service: /service/clerk/customer/search/simply
+  params:
+    query : '川C66666'
+    phoneType : 'iOS'
+
+customerDetail: #客户模块-客户详情
+  service: /service/clerk/customer/detail/{ids}
+  params:
+    phoneType: 'iOS'
+
+customerProduct: #客户-待服务套餐列表,相同项目整合
+  service: /service/clerk/xm/v1-1/order/customer/package/order/merge/product
+  params:
+    customerId: 
+
+queryProduct: #报价-商品列表-套餐
+  service: /service/clerk/xm/v1-1/goods/query/goods/page
+  params:
+    carModelId:
+    productTypes: [5]
+    pageSize: 15
+    page: 1
+
+queryPackage: #报价-列表查询-标准项目
+  service: /service/clerk/xm/v1-1/goods/query/std/package
+  params:
+    carModelId:
+    page: 1
+    pageSize: 15
+    phoneType: 'iOS'
+
+queryLocal: #报价-商品列表-本地项目
+  service: /service/clerk/xm/v1-1/goods/query/goods/page
+  params:
+    carModelId:
+    productTypes: [2,3,4]
+    pageSize: 15
+    page: 1
+
+createOrder: #订单-开单
+  service: /service/clerk/xm/v1-1/order/create/order
+  params:
+    orderCarBO:
+    - id:
+      brandEn:
+      extra:
+      - quoteNoMaintainCount:
+        insuranceCode:
+        insuranceName:
+        insuranceExpireMonth:
+        carId:
+        cameCount:
+        advisorCode:
+        insuranceExpireTime:
+        advisorName:
+        insuranceBuyTime:
+      mileage:
+      cameOil:
+      carModelId:
+      brand:
+      cameMileage:
+      carModel:
+      engineNumber:
+      vin:
+      logo:
+      carLine:
+      mileageRecordedTime:
+      carId:
+      produceDate:
+      isNeedRequest:
+      yearModel:
+      carNo:
+    productList:
+    - saleAmt:
+      payCompCode:
+      orderId:
+      productNum:
+      remark:
+      orderProductId:
+      pkgTypeName:
+      workId: 
+      pkgTypeId:
+      thisTimePayment:
+      packageId:
+      itemTimeTotal:
+      saleUserId:
+      detailAmt:
+      storeName:
+      purchasedOrderProductId:
+      cateName:
+      isPurchased:
+      sourceId:
+      payCompName:
+      productType:
+      proType:
+      status:
+      packageProductId:
+      isLocalProject:
+      saleUserName:
+      parts: 
+      differAmt:
+      subtotalAmt:
+      holdMans:
+      saleAmt_origin:
+      discountAmt:
+      isDispatch:
+      selectAmount:
+      cateId:
+      unlimitedTimes:
+      itemTimeTotal_now:
+      isPurchasedFlag:
+      isUsePackage:
+      childOrderId:
+      items: 
+      originalOrderId: 
+      productId:
+      holdMan:
+    customerInfoBO:
+    - source:
+      province:
+      district:
+      clientCode:
+      country:
+      street:
+      fax:
+      firstServiceTime:
+      member:
+      customerId:
+      city:
+      sourceName:
+      name:
+      type:
+      gender:
+      email:
+      idNumber:
+      mobile:
+      postalCode:
+      wxUnionId:
+      memberId:
+      remark:
+      address:
+    packageList:
+    totalAmt:
+    discountAmt:
+    payableAmt:

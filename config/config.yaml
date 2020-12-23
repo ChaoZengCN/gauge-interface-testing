@@ -1,0 +1,5 @@
+#接口配置文件
+path: F:/InterFace/CheShiFu/config/
+filename_interface: interface.yaml
+filename_tmp: tmp.yaml
+filename_logger: logger.yaml

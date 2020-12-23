@@ -1,0 +1,72 @@
+orderCarBO:
+- orderProductId: '1327179784033189889'
+  orderId: TMO202011131327179778911944706
+  originalOrderId: ''
+  childOrderId: '1327179781399166977'
+  childOrderCode: ''
+  orderProductCode: TOP202011131327179784033189890
+  storeName: "\u666E\u901A\u6D17\u8F66"
+  productId: '8639'
+  packageProductId: ''
+  productType: 4
+  productTypeName: ''
+  packageId: '60000084'
+  sourceId: source_local
+  pkgTypeId: ''
+  pkgTypeName: ''
+  cateId: '0'
+  cateName: ''
+  saleAmt: 30.0
+  discountAmt: 0.0
+  subtotalAmt: 3.0
+  detailAmt: 3.0
+  differAmt: 3.0
+  costAmt: 0.0
+  costPrice: 0
+  discountRate: 0
+  refundAmt: 0.0
+  productNum: 10
+  unlimitedTimes: false
+  payState: OPS002
+  logisticsState: ''
+  refundState: '0'
+  refundReason: ''
+  requestRefundTime:
+  refundTime:
+  useState: 1
+  orderStatus: 0
+  usedCompCode: ''
+  usedCompName: ''
+  usedTime:
+  payCompCode: COM20100211000002
+  payCompName: "\u4E49\u4E4C\u5954\u5B9D\u5E97"
+  usedUserId: ''
+  usedUserName: ''
+  remark: ''
+  saleUserId: ''
+  saleUserName: ''
+  cardDetailType: ''
+  cardDetialId: ''
+  basicProduct: 2
+  isDisabled: 0
+  createTime: '2020-11-13 17:21:32'
+  createBy: "\u9648\u52C7\u4E3A"
+  updateBy: "\u9648\u52C7\u4E3A"
+  updateTime: '2020-11-13 17:42:48'
+  isDispatch:
+  status: 0
+  holdMan: ''
+  expectFinishDate:
+  holdMans: []
+  childOrderType: ''
+  workId: 0
+  itemTimeTotal: 0
+  thisTimePayment: 0
+  couponAmt: 0
+  extensionId: 0
+  pid: 0
+  compCode: ''
+  compName: ''
+  giftFlag: 0
+  items: []
+  parts: []
